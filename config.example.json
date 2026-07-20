@@ -1,0 +1,28 @@
+{
+  "ping_target": "1.1.1.1",
+  "ping_interval": 1.0,
+  "ping_timeout_ms": 1200,
+  "sample_size": 60,
+  "ip_check_interval": 60,
+  "risk_refresh_interval": 900,
+  "opacity": 0.93,
+  "always_on_top": true,
+  "click_through": false,
+  "auto_start": false,
+  "proxycheck_api_key": "",
+  "ipqs_api_key": "",
+  "abuseipdb_api_key": "",
+  "alert_on_ip_change": false,
+  "clash_auto_detect": true,
+  "clash_pipe": "\\\\.\\pipe\\verge-mihomo",
+  "clash_group": "",
+  "clash_delay_url": "https://www.gstatic.com/generate_204",
+  "ping_targets": ["1.1.1.1", "8.8.8.8", "9.9.9.9"],
+  "ai_probe_interval": 5.0,
+  "ai_probe_targets": [
+    {"name": "OpenAI", "url": "https://api.openai.com/favicon.ico"},
+    {"name": "ChatGPT", "url": "https://chatgpt.com/favicon.ico"},
+    {"name": "Claude", "url": "https://claude.ai/favicon.ico"},
+    {"name": "Gemini", "url": "https://gemini.google.com/favicon.ico"}
+  ]
+}

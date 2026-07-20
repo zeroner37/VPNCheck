@@ -1,0 +1,27 @@
+[project]
+name = "vpncheck-overlay"
+version = "0.1"
+description = "A Windows monitor for ChatGPT, Claude, Gemini and AI API connection quality."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "VPNCheck contributors" }]
+keywords = ["ai", "chatgpt", "claude", "gemini", "clash", "latency", "ip-reputation", "windows"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: Microsoft :: Windows :: Windows 10",
+  "Operating System :: Microsoft :: Windows :: Windows 11",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.urls]
+Issues = "https://github.com/zeroner37/VPNCheck/issues"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
